@@ -1,0 +1,169 @@
+body {
+  color: #ff0000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Rajdhani", sans-serif;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 750px) and (min-width: 288px) {
+  nav.navbar {
+    background: linear-gradient(90deg, #000000, #313131, #303030);
+  }
+
+  .navbar-brand {
+    margin-left: 1%;
+    font-family: "Righteous", cursive;
+    color: #ffc400;
+    font-weight: 800;
+    font-style: italic;
+    font-size: large;
+  }
+
+  /* JUMBOTRON */
+  .jumbotron {
+    background-image: url(JUMBOTRON.jpg);
+    background-size: cover;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    min-height: 100%;
+    background-position: 50% 50%;
+  }
+
+  .h3-selamat {
+    padding-top: 10%;
+  }
+
+  h3.selamat {
+    text-align: center;
+    border: 5px solid #ffd342;
+    border-radius: 50px;
+    padding-bottom: 1%;
+    font-weight: 650;
+    margin-left: 22%;
+    color: #ffc400;
+    padding-top: -3%;
+    margin-right: 23%;
+    font-family: "Righteous", cursive;
+    font-size: 1.2em;
+  }
+
+  h1.gameplay {
+    color: #6f9bca;
+    font-size: 2.2em;
+    text-align: center;
+    font-weight: 900;
+    font-family: "Kanit", sans-serif;
+  }
+
+  p.website {
+    font-size: 0.8em;
+    font-family: "Righteous", cursive;
+    text-decoration: overline;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -1%;
+    color: #ffffff;
+  }
+
+  .button-jumbo {
+    text-align: center;
+    margin-top: -6%;
+  }
+
+  a.btn1 {
+    color: #003ae7;
+    font-weight: 700;
+    border: none;
+    font-family: "Righteous", cursive;
+    background-color: #ffc400;
+    transition: 0.2s;
+  }
+
+  a.btn1:hover {
+    color: #ffc400;
+    font-weight: 700;
+    border: none;
+    background-color: #003ae7;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.1s;
+  }
+
+  a.btn2 {
+    border: none;
+    font-weight: 700;
+    font-family: "Righteous", cursive;
+    background-color: #003ae7;
+    color: #ffc400;
+    transition: 0.2s;
+  }
+
+  a.btn2:hover {
+    color: #003ae7;
+    font-weight: 700;
+    border: none;
+    background-color: #ffc400;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.1s;
+  }
+
+  /* KONTEN */
+  h5.promo {
+    background-color: #ffc400;
+    margin-top: 5%;
+    color: #ffffff;
+    font-size: small;
+    font-weight: 500 !important;
+    padding-top: 1%;
+    font-family: "Righteous", cursive;
+    padding-bottom: 1%;
+    border-radius: 15px;
+  }
+
+  .card-grup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .img-thumbnail {
+    background: linear-gradient(0deg, #0040ff, #ffc400);
+    border-radius: 15px;
+  }
+
+  .card-image {
+    margin: 3% 0;
+  }
+
+  a.btnku {
+    background-color: #ffc400;
+    border: none;
+    font-weight: 800;
+    color: #3700ff;
+    font-family: "Kanit", sans-serif;
+    font-size: small;
+    margin-left: 5%;
+    padding-right: 35%;
+    padding-left: 35%;
+  }
+
+  .footer-area {
+    background: linear-gradient(90deg, #313131, #000000, #313131);
+  }
+
+  p.tang {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+    color: #f0f0f0;
+    margin-top: 2%;
+  }
+
+  img.img-footer {
+    margin-top: 8%;
+    margin-left: -40%;
+  }
+}
